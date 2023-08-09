@@ -8,6 +8,9 @@
     height: 100vh;
     scroll-snap-stop: always;
 }
+.navbar-space-desktop{
+    padding-left:2%;
+}
 
 
 header{
