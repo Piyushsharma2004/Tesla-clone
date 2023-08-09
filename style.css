@@ -1,0 +1,498 @@
+.section{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.container-mobile{
+    scroll-snap-align: start;
+    height: 100vh;
+    scroll-snap-stop: always;
+}
+
+
+header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    padding-left: 45px;
+}
+
+.tesla-navbar-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+    font-size: 18px;
+    font-weight: 600;
+    
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+
+}
+.tesla-navbar-button:hover{
+    background-color: rgba(0,0,0,0.15);
+}
+@media (min-width:1200px) and (max-width: 1700px) {
+.navbar-space{
+   margin-left: 18%;
+}
+.navbar-connect-icon{
+    margin-left: 15%;
+}
+}
+.navbar-connect-icon{
+    margin-top: 20px;
+    
+    justify-content: end;
+}
+.navbar-connect-icon-svg{
+    color: white;
+}
+
+
+.tesla-navbar-button-1{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.tesla-navbar-button-1:hover{
+    background-color: rgb(226, 225, 225);
+    
+}
+.top-icon{
+    height: 120px;
+}
+.top-padding{
+    height: 400px;
+}
+.navbar-car-text-div{
+    margin-top: 50px;
+}
+.navbar-car{
+    font-size: 15px;
+    line-height: 27px;
+    color:#4f5053;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.navbar-car:hover{
+    text-decoration-line: underline;
+}
+.vl {
+    border-left: 0.01px solid #919191;
+    height: 260px;
+    padding-right: 48px;
+    margin-top: 40px;
+    
+    
+}
+.vl-1 {
+    border-left: 0.01px solid #919191;
+    height: 140px;
+    padding-right: 48px;
+    margin-top: 40px;
+    
+    
+}
+.vl-2 {
+    border-left: 0.01px solid #919191;
+    height: 190px;
+    padding-right: 48px;
+    margin-top: 40px;
+    
+    
+}
+.top-navbar-icon-div{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.top-navbar-icon-div-start{
+    margin-left: 120px;
+}
+.top-navbar-icon-div-last{
+    margin-right: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
+.top-navbar-icon-div-heading{
+    font-size: 20px;
+
+}
+.top-navbar-icon-div-heading-2{
+    padding-right: 6px;
+    color: #5c5e62;
+    font-size: 15px;
+    pointer-events: visiblePainted;
+    
+}
+.top-navbar-icon-div-heading-2-1{
+    text-align: center;
+}
+.Discover-nav-tag{
+    font-size: 17px;
+    color: #5c5e62;
+    line-height: 40px;
+    text-decoration: none;
+}
+.Discover-nav-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #171a20;
+    line-height: 30px;
+    text-decoration: none;
+}
+.Discover-nav-div{
+    margin-right: 125px;
+    margin-top: 45px;
+}
+.Discover-nav-text:hover{
+    
+    text-decoration: underline;
+}
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for the navbar */
+    z-index: 2; /* Display navbar above the video */
+    
+  }
+.hero-main-page-content{
+    position: absolute;
+  top: 20%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+  
+}
+.hero-main-page-content p{
+    font-weight: 600;
+}
+.hero-main-page-content-btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.hero-main-page-content-btn-1{
+    background-color: transparent;
+    border: solid;
+    color: white;
+    border-color: white;
+    width: 264px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+.hero-main-page-content-btn-1:hover{
+    color: black;
+    background-color: white;
+}
+.second-hero-page{
+    background-image: url("assets/Homepage-Model-3-Desktop-NA.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-model-3-main-page-content{
+    
+    padding-top: 100px;
+    
+    text-align: center;
+    color: Black;
+    z-index: 1;
+}
+.hero-model-3-main-page-content p{
+    line-height: 0.3;
+}
+.hero-model-3-main-page-content-btn {
+    
+   text-align: center;
+    z-index: 1;
+    margin-top: 60vh;
+}
+.hero-model-3-page-content-btn-1{
+    width: 240px;
+    height: 40px;
+    color: #393c41;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.hero-model-3-page-content-btn-2{
+    width: 240px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.model-Y-hero-page{
+    background-image: url("assets/Homepage-Model-Y-Global-Desktop.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.model-Y-hero-page .hero-model-3-main-page-content-btn{
+    margin-top: 67vh;
+}
+.s-hero-page{
+    background-image: url("assets/Homepage-Model-S-Desktop-LHD-6.22.webp");
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.model-X-hero-page{
+    background-image: url("assets/Homepage-Model-X-Desktop-LHD.webp");
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Solar-P-hero-page{
+    background-image: url("assets/425_HP_SolarPanels_D.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.Solar-P-hero-page-link{
+color: black;
+
+}
+.Solar-P-hero-page .hero-model-3-main-page-content-btn{
+    margin-top: 70vh;
+}
+.Solar-R-hero-page{
+    background-image: url("assets/Homepage-SolarRoof-Desktop-Global.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.Powerpack-hero-page{
+    background-image: url("assets/Homepage-Powerwall-Desktop.jpg");
+    background-size: cover;
+    width: 100%; /* Set the width of your container */
+    height: 100vh;
+   
+    
+}
+.Powerpack-hero-page .hero-model-3-main-page-content-btn{
+    margin-top: 70vh;
+}
+.charger-hero-page{
+    background-image: url("assets/Homepage-Accessories-Desktop-NA-APAC.jpg");
+    background-size: cover;
+    width: 100%; /* Set the width of your container */
+    height: 100vh;
+    
+}
+
+.charger-hero-page-btn{
+    text-align: center;
+    z-index: 1;
+    margin-top: 65vh;
+}
+.charger-hero-page-btn-1{
+    width: 240px;
+    height: 40px;
+    color: black;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.charger-hero-page-footer{
+    justify-items: center;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+.charger-hero-page-footer-text{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+        padding-right: 10px;
+    text-decoration: none;
+    
+    
+
+}
+body {
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+@media (min-width:200px) and (max-width: 450px) {
+#myVideo-mobile{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.video-container {
+  
+    position: relative;
+  height: 100vh;
+   background-size: cover;
+   background-position: center center;
+  overflow: hidden;
+}
+.Homepage-Mobile-hero-video{
+  height: 100;
+}
+}
+
+.Homepage-Mobile-hero-nav-home{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.mobile-nav-menu-list-card{
+   
+   
+    text-decoration: none;
+    
+    
+}
+.mobile-nav-menu-list-card-div{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.mobile-nav-menu-list-card-div:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.mobile-nav-menu-list-card-div h1{
+    color: #393c41;
+    font-size: 20px;
+    line-height: 2;
+}
+.mobile-nav-menu-list-card-div-icon-text{
+    color: #393c41;
+    font-size: 20px;
+    line-height: 0.5;
+    padding-top: 10px;
+}
+.mobile-nav-menu-list-card-div-icon-1{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.mobile-nav-menu-list-card-div-icon-2{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.mobile-nav-menu-list-card-div-arrow{
+    position: absolute;
+    right:10% ;
+    padding-top: 7px;
+}
+.hero-model-3-main-page-content-btn-mobile-1{
+text-align: center;
+    
+}
+.hero-model-3-page-content-btn-1-mobile{
+    width: 355px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255,255,255,0.8);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 55vh;
+    font-size: 15px;
+}
+.hero-model-3-page-content-btn-2-mobile{
+    
+    width: 355px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    border: none;
+    font-size: 15px;
+    border-radius: 3px;
+   
+}
+.second-hero-page-mobile {
+   width: 100%;
+   
+   height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-main-page-content-mobile{
+    position: absolute;
+  top: 6%;
+  left: 10%;
+  
+  text-align: center;
+  color: white;
+  z-index: 1;
+  
+}
+.footer-mobile{
+    background: linear-gradient(360deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0));
+    height: 20vh;
+        bottom: 0;
+        text-align: center;
+        padding-top: 15px;
+
+}
+.footer-mobile a{
+    line-height: 2;
+}
