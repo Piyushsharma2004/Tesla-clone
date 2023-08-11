@@ -1,3 +1,15 @@
+.my-profile-social-media{
+    height: 45PX;
+    width: 45PX;
+    background-color: rgba(255,0,0,0.5);
+    border-radius: 50%;
+    padding-top: 7%;
+    margin-top: 25px;
+}
+.my-profile-social-media:hover{
+    background-color: rgba(255,0,0,1);
+}
+
 .section{
     height: 100vh;
     overflow-y: scroll;
