@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>Tesla | Supercharger | Piyush</title>
+    <link rel="stylesheet" href="supercharger.css">
+    <link rel="stylesheet/less" type="text/css" href="bootstrap.scss" />
+    <script src="https://kit.fontawesome.com/d090e259b2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Desktop model s Page Start-->
+    <section class="desktop section d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <header class="tesla-navbar video-container ">
+            <video autoplay muted loop id="myVideo " style="height: 100vh; object-fit: fill;">
+                <source src="assets/Supercharger-Main-Hero-Desktop-NA.webm" type="video/mp4">
+            </video>
+
+            <nav class="d-flex navbar navbar-space-desktop">
+
+
+                <div class="">
+                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a aria-label="Tesla Logo"
+                            class="tds-site-logo-link">
+
+                            <svg width="120px" height="" class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                    fill="white"></path>
+                            </svg>
+                            <span class="tds--is_visually_hidden"></span></a><a
+                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                            id="top-of-page"></a>
+                    </h1>
+
+                    </h1>
+                </div>
+
+                <div class="navbar-space d-flex flex-row justify-content-center">
+
+                    <button class="tesla-navbar-button" type="button" data-bs-toggle="offcanvas" id="myButton"
+                        data-bs-target="#offcanvasTop1" aria-controls="offcanvasTop1">Vehicles </button>
+                    <button class="tesla-navbar-button" type="button" data-bs-toggle="offcanvas" id="myButton1"
+                        data-bs-target="#offcanvasTop2" aria-controls="offcanvasTop2">Energy</button>
+                    <button class="tesla-navbar-button" type="button" data-bs-toggle="offcanvas" id="myButton2"
+                        data-bs-target="#offcanvasTop3" aria-controls="offcanvasTop3">Charging</button>
+                    <button class="tesla-navbar-button" type="button" data-bs-toggle="offcanvas" id="myButton3"
+                        data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop4">Descover</button>
+                    <button class="tesla-navbar-button" type="button" data-bs-toggle="offcanvas" id="myButton4"
+                        data-bs-target="#offcanvasTop5" aria-controls="offcanvasTop5">Shop</button>
+
+                </div>
+
+                <div class="d-flex navbar-connect-icon">
+                    <a href=""><i class="fa-regular fa-circle-question fa-lg" style="color: #ffffff;"></i>
+                    </a>&nbsp;&nbsp;&nbsp;
+                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #ffffff;"></i></a> &nbsp;&nbsp;&nbsp;
+                    <a href=""><i class="fa-regular fa-circle-user fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+
+                <!--this is the nav bar offcanvas modal -->
+                <section class="all-navbar-flex-item">
+                    <!--this is the nav bar offcanvas 1 cars modal -->
+                    <div class="offcanvas top-padding  offcanvas-top" tabindex="-1" id="offcanvasTop1"
+                        aria-labelledby="offcanvasTopLabel">
+
+                        <div class="offcanvas-body">
+                            <nav class="d-flex">
+                                <div class="">
+                                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a
+                                            aria-label="Tesla Logo" class="tds-site-logo-link">
+
+                                            <svg width="120px" height=""
+                                                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                                    fill="black"></path>
+                                            </svg>
+                                            <span class="tds--is_visually_hidden"></span></a><a
+                                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                            id="top-of-page"></a></h1>
+
+                                    </h1>
+                                </div>
+
+
+                                <div class="navbar-space d-flex flex-row justify-content-center">
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton5" data-bs-target="#offcanvasTop1"
+                                        aria-controls="offcanvasTop1">Vehicles </button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton6" data-bs-target="#offcanvasTop2"
+                                        aria-controls="offcanvasTop2">Energy</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton7" data-bs-target="#offcanvasTop3"
+                                        aria-controls="offcanvasTop3">Charging</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton8" data-bs-target="#offcanvasTop4"
+                                        aria-controls="offcanvasTop4">Descover</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton9" data-bs-target="#offcanvasTop5"
+                                        aria-controls="offcanvasTop5">Shop</button>
+                                </div>
+
+                                <div class="d-flex navbar-connect-icon">
+                                    <a href=""><i class="fa-regular fa-circle-question fa-lg"
+                                            style="color: #535353;"></i>
+                                    </a>&nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-regular fa-circle-user fa-lg"
+                                            style="color: #535353;"></i></a>
+                                </div>
+
+
+                            </nav>
+
+                            <div class="d-flex flex-row ">
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+                                    <a href="/Mode_S/model_S.html"><img src="assets/Mega-Menu-Vehicles-Model-s.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Model S</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div">
+                                    <img src="assets/Mega-Menu-Vehicles-Model-3.png" class="top-icon" />
+                                    <h1 class="top-navbar-icon-div-heading">Model 3</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div">
+                                    <a href=""> <img src="assets/Mega-Menu-Vehicles-Model-x.png" class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Model X</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Vehicles-Model-y.png" class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Model Y</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+                                <div class="vl"></div>
+                                <div class="navbar-car-text-div">
+                                    <a href="#" class="navbar-car">Inventory</a><br>
+                                    <a href="#" class="navbar-car">Used Cars</a><br>
+                                    <a href="#" class="navbar-car">Cybertruck</a><br>
+                                    <a href="#" class="navbar-car">Semi</a><br>
+                                    <a href="#" class="navbar-car">Roadster</a><br>
+                                    <a href="#" class="navbar-car">Compare</a><br>
+                                    <a href="#" class="navbar-car">Fleet</a><br>
+                                    <a href="#" class="navbar-car">Demo Drive</a><br>
+                                    <a href="#" class="navbar-car">Trade-in</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!--this is the nav bar offcanvas 2 Energy modal -->
+                    <div class="offcanvas offcanvas1 top-padding  offcanvas-top" tabindex="-1" id="offcanvasTop2"
+                        aria-labelledby="offcanvasTopLabel">
+
+                        <div class="offcanvas-body">
+                            <nav class="d-flex">
+                                <div class="">
+                                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a
+                                            aria-label="Tesla Logo" class="tds-site-logo-link">
+
+                                            <svg width="120px" height=""
+                                                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                                    fill="black"></path>
+                                            </svg>
+                                            <span class="tds--is_visually_hidden"></span></a><a
+                                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                            id="top-of-page"></a></h1>
+
+                                    </h1>
+                                </div>
+
+
+                                <div class="navbar-space d-flex flex-row justify-content-center">
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton10" data-bs-target="#offcanvasTop1"
+                                        aria-controls="offcanvasTop1">Vehicles </button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton11" data-bs-target="#offcanvasTop2"
+                                        aria-controls="offcanvasTop2">Energy</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton12" data-bs-target="#offcanvasTop3"
+                                        aria-controls="offcanvasTop3">Charging</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton13" data-bs-target="#offcanvasTop4"
+                                        aria-controls="offcanvasTop4">Descover</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        id="myButton14" data-bs-target="#offcanvasTop5"
+                                        aria-controls="offcanvasTop5">Shop</button>
+                                </div>
+
+                                <div class="d-flex navbar-connect-icon">
+                                    <a href=""><i class="fa-regular fa-circle-question fa-lg"
+                                            style="color: #535353;"></i>
+                                    </a>&nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-regular fa-circle-user fa-lg"
+                                            style="color: #535353;"></i></a>
+                                </div>
+
+
+                            </nav>
+
+                            <div class="d-flex flex-row ">
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+                                    <a href=""><img src="assets/Mega-Menu-Energy-Solar-Panels.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Solar Panel</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div">
+                                    <a href=""> <img src="assets/Mega-Menu-Energy-Solar-Roof.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Solar Roof</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div">
+                                    <a href=""><img src="assets/Mega-Menu-Energy-Powerwall-US.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Powerwall</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Energy-Megapack.png" class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Megapack</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+                                <div class="vl-1"></div>
+                                <div class="navbar-car-text-div">
+                                    <a href="#" class="navbar-car">Utilities</a><br>
+                                    <a href="#" class="navbar-car">Commerial</a><br>
+                                    <a href="#" class="navbar-car">Schedule a Consultation</a><br>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!--end-->
+
+                    <!--this is the nav bar offcanvas 3 Charging modal -->
+                    <div class="offcanvas offcanvas2 top-padding  offcanvas-top" tabindex="-1" id="offcanvasTop3"
+                        aria-labelledby="offcanvasTopLabel">
+
+                        <div class="offcanvas-body">
+                            <nav class="d-flex">
+                                <div class="">
+                                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a
+                                            aria-label="Tesla Logo" class="tds-site-logo-link">
+
+                                            <svg width="120px" height=""
+                                                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                                    fill="black"></path>
+                                            </svg>
+                                            <span class="tds--is_visually_hidden"></span></a><a
+                                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                            id="top-of-page"></a></h1>
+
+                                    </h1>
+                                </div>
+
+
+                                <div class="navbar-space d-flex flex-row justify-content-center">
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop1" aria-controls="offcanvasTop1">Vehicles </button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop2" aria-controls="offcanvasTop2">Energy</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop3" aria-controls="offcanvasTop3">Charging</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop4">Descover</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop5" aria-controls="offcanvasTop5">Shop</button>
+                                </div>
+
+                                <div class="d-flex navbar-connect-icon">
+                                    <a href=""><i class="fa-regular fa-circle-question fa-lg"
+                                            style="color: #535353;"></i>
+                                    </a>&nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-regular fa-circle-user fa-lg"
+                                            style="color: #535353;"></i></a>
+                                </div>
+
+
+                            </nav>
+
+                            <div class="d-flex flex-row ">
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+
+
+
+
+
+
+                                <div class="top-navbar-icon-div">
+                                    <a href=""> <img src="assets/Mega-Menu-Charging-Charging.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Home Charging</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div">
+                                    <a href=""><img src="assets/Mega-Menu-Charging-Home-Charging.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Home-Charging</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Charging-Supercharging.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Supercharging</h1>
+                                    <div class="top-navbar-icon-div-heading-2-1">
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                        <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                                    </div>
+                                </div>
+
+                                <div class="vl-2"></div>
+                                <div class="navbar-car-text-div">
+                                    <a href="#" class="navbar-car">Charging Calcultor</a><br>
+                                    <a href="#" class="navbar-car">Trip Planner</a><br>
+                                    <a href="#" class="navbar-car">Supercharging Voting</a><br>
+                                    <a href="#" class="navbar-car">Destination Charging</a><br>
+                                    <a href="#" class="navbar-car">Commerical Charging</a><br>
+                                    <a href="#" class="navbar-car">Become a site Host</a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!--end-->
+                    <!--this is the nav bar offcanvas 4 Discover modal -->
+                    <div class="offcanvas offcanvas3 top-padding  offcanvas-top" tabindex="-1" id="offcanvasTop4"
+                        aria-labelledby="offcanvasTopLabel">
+
+                        <div class="offcanvas-body">
+                            <nav class="d-flex">
+                                <div class="">
+                                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a
+                                            aria-label="Tesla Logo" class="tds-site-logo-link">
+
+                                            <svg width="120px" height=""
+                                                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                                    fill="black"></path>
+                                            </svg>
+                                            <span class="tds--is_visually_hidden"></span></a><a
+                                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                            id="top-of-page"></a></h1>
+
+                                    </h1>
+                                </div>
+
+
+                                <div class="navbar-space d-flex flex-row justify-content-center">
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop1" aria-controls="offcanvasTop1">Vehicles </button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop2" aria-controls="offcanvasTop2">Energy</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop3" aria-controls="offcanvasTop3">Charging</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop4">Descover</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop5" aria-controls="offcanvasTop5">Shop</button>
+                                </div>
+
+                                <div class="d-flex navbar-connect-icon">
+                                    <a href=""><i class="fa-regular fa-circle-question fa-lg"
+                                            style="color: #535353;"></i>
+                                    </a>&nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-regular fa-circle-user fa-lg"
+                                            style="color: #535353;"></i></a>
+                                </div>
+
+
+                            </nav>
+
+                            <div class="d-flex flex-row  ">
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+
+                                <div class="Discover-nav-div">
+                                    <a href="" class="Discover-nav-tag">Resources</a><br>
+                                    <a href="" class="Discover-nav-text">Demo Drive</a><br>
+                                    <a href="" class="Discover-nav-text">Insurance</a><br>
+                                    <a href="" class="Discover-nav-text">Video Guides</a><br>
+                                    <a href="" class="Discover-nav-text">Customer Stories</a><br>
+                                    <a href="" class="Discover-nav-text">Events</a><br>
+                                </div>
+                                <div class="Discover-nav-div">
+                                    <a href="" class="Discover-nav-tag">Location Servies</a><br>
+                                    <a href="" class="Discover-nav-text">Finds Us</a><br>
+                                    <a href="" class="Discover-nav-text">Trip Planner</a><br>
+                                    <a href="" class="Discover-nav-text">Find a Collision Center</a><br>
+                                    <a href="" class="Discover-nav-text">FInd a Certified Installer</a><br>
+
+                                </div>
+                                <div class="Discover-nav-div">
+                                    <a href="" class="Discover-nav-tag">Company</a><br>
+                                    <a href="" class="Discover-nav-text">About</a><br>
+                                    <a href="" class="Discover-nav-text">Careers</a><br>
+                                    <a href="" class="Discover-nav-text">Investor Relations</a><br>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!--end-->
+                    <!--this is the nav bar offcanvas 3 Charging modal -->
+                    <div class="offcanvas offcanvas4 top-padding  offcanvas-top" tabindex="-1" id="offcanvasTop5"
+                        aria-labelledby="offcanvasTopLabel">
+
+                        <div class="offcanvas-body">
+                            <nav class="d-flex">
+                                <div class="">
+                                    <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a
+                                            aria-label="Tesla Logo" class="tds-site-logo-link">
+
+                                            <svg width="120px" height=""
+                                                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                                viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                                    fill="black"></path>
+                                            </svg>
+                                            <span class="tds--is_visually_hidden"></span></a><a
+                                            class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                            id="top-of-page"></a></h1>
+
+                                    </h1>
+                                </div>
+
+
+                                <div class="navbar-space d-flex flex-row justify-content-center">
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop1" aria-controls="offcanvasTop1">Vehicles </button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop2" aria-controls="offcanvasTop2">Energy</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop3" aria-controls="offcanvasTop3">Charging</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop4">Descover</button>
+                                    <button class="tesla-navbar-button-1" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasTop5" aria-controls="offcanvasTop5">Shop</button>
+                                </div>
+
+                                <div class="d-flex navbar-connect-icon">
+                                    <a href=""><i class="fa-regular fa-circle-question fa-lg"
+                                            style="color: #535353;"></i>
+                                    </a>&nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href=""><i class="fa-regular fa-circle-user fa-lg"
+                                            style="color: #535353;"></i></a>
+                                </div>
+
+
+                            </nav>
+
+                            <div class="d-flex flex-row ">
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+                                <div class="top-navbar-icon-div top-navbar-icon-div-start">
+
+                                </div>
+
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Charging-Home-Charging.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Charging</h1>
+                                </div>
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Shop-Vehicle-Accessories.png"
+                                            class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Vehicle Accessories</h1>
+                                </div>
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Shop-Apparel.webp" class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Apparel</h1>
+                                </div>
+
+                                <div class="top-navbar-icon-div-last">
+                                    <a href=""> <img src="assets/Mega-Menu-Shop-Lifestyle.png" class="top-icon" /></a>
+                                    <h1 class="top-navbar-icon-div-heading">Lifestyle</h1>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!--end-->
+
+                </section>
+
+            </nav>
+            <div class="hero-main-page-content">
+                <h1>Supercharger</h1>
+                <a href="" class="Solar-P-hero-page-link">
+                    <p>Tesla</p>
+                </a>
+            </div>
+            <div class="d-flex hero-model-3-main-page-content-row" style="margin-top: 10%;">
+                <div style="margin-right: 12%; width:200px;">
+                    <h1>45,000+</h1>
+                    <p>Global Superchargers</p>
+                </div>
+                <div style="margin-right: 12%; width:200px;">
+                    <h1>15
+                        min</h1>
+                    <p>Recharge up to 200 Miles</p>
+                </div>
+                <div style="margin-right: 12%; width:200px;">
+                    <h1>$</h1>
+                    <p>Less Than Gasoline</p>
+                </div>
+
+            </div>
+
+
+
+
+
+        </header>
+
+        <!-- Model 3 Hero Page  -->
+
+
+
+        <!-- Deatils and image section -->
+
+
+
+
+
+
+        <!-- video range -->
+        <div class="go-any-where-section">
+            <div class="container-fluid ">
+                <div class="row">
+
+                    <div class="col-lg-3 col-xl-3 go-any-where-section-box">
+                        <h1 style="font-size:18px;line-height:1px;">Locations</h1>
+                        <h2 class="font-size:24px;">Go Anywhere
+                        </h2>
+                        <p style="font-size:14px;padding-top:10px; padding-right: 10px;">With 45,000+ Superchargers,
+                            Tesla owns and operates the largest global, fast charging network in the world. Located on
+                            major routes near convenient amenities, Superchargers keep you charged when you're away from
+                            home. Simply plug in, charge and go.
+
+
+                        </p>
+                        <div class="go-any-where-section-box-btn">
+                            <button class="blue-car-section-white-box-btn-5">Find Us</button>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 col-xl-9 go-any-where-section-video ">
+
+                        <img src="assets/Supercharger-Locations-Hero-Desktop-NA.jpg"
+                            style="background-size: cover;width: 100%;" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- hardware-section -->
+
+        <div class="go-any-where-section" style="background-color: #ffffff;  ">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-9 " style="margin-left: 0;padding-left: 0%;">
+
+                        <video src="assets/Supercharger-Carousel-Slide-1-Desktop-NA.webm" autoplay loop
+                            style="width: 100%;object-fit: fill;"></video>
+
+                    </div>
+                    <div class="col-lg-3 col-xl-3 go-any-where-section-box" style="padding-bottom: 30px;">
+                        <h1 style="font-size:18px;line-height:1px;">Experience</h1>
+                        <h2 class="font-size:24px;">Freedom to Travel
+                        </h2>
+                        <p style="font-size:14px;padding-top:10px; padding-right: 10px;">To use a Supercharger, simply
+                            plug in and charge automatically. With the Tesla app, you can view Supercharger stall
+                            availability, monitor your charge status or get notified when you’re ready to go.
+
+                        </p>
+                        <div class="go-any-where-section-box-btn">
+                            <button class="blue-car-section-white-box-btn-5">Tesla Car</button>
+                            <button class="blue-car-section-white-box-btn-6">Learn Now</button>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- car-detail -->
+        <div class="black-car-detail" style="padding-top: 4%;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
+                        <img src="assets/Mega-Menu-Charging-Supercharging.png" alt="" style="width: 100%;">
+
+                    </div>
+                    <div class="col-lg-6 col-xl-6">
+                        <h1 style="color: #ffffff;">Supercharger</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-6">
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Wattage</h1>
+                                    <p class="black-car-detail-subtitle">400 W</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Operating Temperature</h1>
+                                    <p class="black-car-detail-subtitle">-40°F up to +185°F</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Dimensions</h1>
+                                    <p class="black-car-detail-subtitle">74.4" x 41.2" x 1.57"
+                                        (including frame)</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Design</h1>
+                                    <p class="black-car-detail-subtitle">Black anodized aluminum alloy frame
+                                        Black solar cells and backsheet</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Warranty</h1>
+                                    <p class="black-car-detail-subtitle">28 cu ft</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Weight</h1>
+                                    <p class="black-car-detail-subtitle">25-year performance guarantee</p>
+
+
+
+                                </div>
+                                <div class="col-lg-6 col-xl-6">
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Certifications</h1>
+                                    <p class="black-car-detail-subtitle">IEC / UL 61730,
+                                        CEC Listed,
+                                        IEC 61215 <br>
+                                    </p>
+
+
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Power</h1>
+                                    <p class="black-car-detail-subtitle">3.8kW / 7.6kW
+                                        97.5% efficiency</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Dimensions</h1>
+                                    <p class="black-car-detail-subtitle">26" x 16" x 6"
+                                    </p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Warranty</h1>
+                                    <p class="black-car-detail-subtitle">12.5 years </p>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 70vh;">
+            <img src="assets/Supercharger-Savings-Hero-Desktop-NA.webp" alt="" style="width: 100%; height: 70vh;">
+        </div>
+
+        <!-- footer-section  -->
+        <div class="footer-section  " style="text-align: center;color: #ffffff;background-color: #000000;">
+            <h1>Host a Supercharger</h1>
+            <button class="blue-car-section-white-box-btn-5-1">Order-now</button>
+            <p>Apply to install a Supercharger at your business property</p>
+
+
+        </div>
+
+        <div class="footer-section-3 d-flex flex-row justify-content-center" style="background-color: #000000;">
+            <a href="">
+                <p>Tesla © 2023</p>
+            </a>
+            <a href="">
+                <p>Privacy & Legal</p>
+            </a>
+            <a href="">
+                <p>Vehicle Recalls</p>
+            </a>
+            <a href="">
+                <p>Contact</p>
+            </a>
+            <a href="">
+                <p>News</p>
+            </a>
+            <a href="">
+                <p>Get Updates</p>
+            </a>
+            <a href="">
+                <p>Locations</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Desktop model s Page End-->
+    <!--mobiel Vertion-->
+    <section class="mobile-version d-block d-sm-block d-md-block d-lg-none d-xl-none" style="">
+        <header class="container-mobile">
+            <video autoplay muted loop id="myVideo-mobile">
+                <source src="assets/Supercharger-Main-Hero-Mobile-NA.webm" type="video/mp4"
+                    class="Homepage-Mobile-hero-video">
+            </video>
+            <div class="hero-main-page-content-mobile" style=" ">
+                <h1 style="Font-size:30px;">Supercharger</h1>
+                <a href="" class="blue-car-section-white-box-a" style="color: #ffffff;">
+                    <P style="Font-size:17px;">Tesla</P>
+                </a>
+            </div>
+            <div class="d-flex hero-model-3-main-page-content-row">
+                <div style="margin-right: 1%; width:120px;">
+                    <h1 style="font-size: 22px;">45,000+</h1>
+                    <p style="font-size: 12px;">Global Superchargers</p>
+                </div>
+                <div style="margin-right: 1%; width:90px;">
+                    <h1 style="font-size: 22px;">15
+                        min</h1>
+                    <p style="font-size: 12px;">Recharge up to 200 Miles</p>
+                </div>
+                <div style="margin-right: 1%; width:140px;">
+                    <h1 style="font-size: 22px;">$</h1>
+                    <p style="font-size: 12px;">Less Than Gasoline</p>
+                </div>
+
+            </div>
+
+
+
+            <nav class="d-flex navbar" style="padding-left: 20px;">
+
+
+                <div class="">
+                    <a href="\index.html">
+                        <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo"><a aria-label="Tesla Logo"
+                                class="tds-site-logo-link">
+
+
+                                <svg width="120px" height="" class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
+                                    viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                        fill="white"></path>
+                                </svg>
+
+                                <span class="tds--is_visually_hidden"></span></a><a
+                                class="tds-skip-to-content tds--is_visually_hidden" href="#main-content"
+                                id="top-of-page"></a>
+                        </h1>
+                    </a>
+
+                    </h1>
+                </div>
+                <div>
+                    <button class="Homepage-Mobile-hero-nav-home" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobile-menu-btn-id" aria-controls="mobile-menu-btn-id">
+                        Menu
+                    </button>
+                </div>
+            </nav>
+
+
+
+        </header>
+
+
+
+
+        <div class="col-lg-9 col-xl-9 go-any-where-section-video ">
+            <img src="assets/Supercharger-Locations-Hero-Mobile-NA.webp" alt="" style="width: 100%;">
+
+
+
+
+        </div>
+
+
+        <div style="height: 100%; background-color: #ffffff; padding: 7%;">
+            <h1 style="font-size:20px;line-height:0;color:#393c41;">Locations</h1>
+            <h2 style="font-size: 38px;font-weight:600;padding-bottom:10px;padding-top:2px;">Go Anywhere
+            </h2>
+
+            <p style="font-size:16px;padding-bottom: 10%;">
+                With 45,000+ Superchargers, Tesla owns and operates the largest global, fast charging network in the
+                world. Located on major routes near convenient amenities, Superchargers keep you charged when you're
+                away from home. Simply plug in, charge and go.
+
+            </p>
+            <button class="blue-car-section-white-box-btn-1" style="width: 100%; font-size: 16px;">Find Us</button>
+
+
+        </div>
+        <div class="col-lg-9 col-xl-9 go-any-where-section-video ">
+          <video  style="width: 100%;">
+            <source src="assets/Supercharger-Carousel-Slide-1-Desktop-NA.webm">
+          </video>
+
+
+
+        </div>
+
+
+        <div style="height: 100%; background-color: #ffffff; padding: 7%;">
+            <h1 style="font-size:20px;line-height:0;color:#393c41;">Experience</h1>
+            <h2 style="font-size: 38px;font-weight:600;padding-bottom:10px;padding-top:2px;">Freedom to Travel
+            </h2>
+
+            <p style="font-size:16px;padding-bottom: 10%;">
+                To use a Supercharger, simply plug in and charge automatically. With the Tesla app, you can view Supercharger stall availability, monitor your charge status or get notified when you’re ready to go.
+
+
+            </p>
+            <button class="blue-car-section-white-box-btn-1" style="width: 100%; font-size: 16px;">Tesla</button>
+            <button class="blue-car-section-white-box-btn-6" style="width: 100%; font-size: 16px;">Learn</button>
+    
+
+        </div>
+
+       
+
+        <!-- car detail  -->
+        <div class="black-car-detail" style="height: auto;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 d-flex flex-column justify-content-center" style="margin-top: 20%;margin-bottom: 10%;">
+                        <img src="assets/Mega-Menu-Charging-Supercharging.png" alt="" style="width: 100%;">
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <h1 style="color: #ffffff;">Super Charging</h1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6">
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Wattage</h1>
+                                    <p class="black-car-detail-subtitle">400 W</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Operating Temperature</h1>
+                                    <p class="black-car-detail-subtitle">-40°F up to +185°F</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Dimensions</h1>
+                                    <p class="black-car-detail-subtitle">74.4" x 41.2" x 1.57"
+                                        (including frame)</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Design</h1>
+                                    <p class="black-car-detail-subtitle">Black anodized aluminum alloy frame
+                                        Black solar cells and backsheet</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Warranty</h1>
+                                    <p class="black-car-detail-subtitle">28 cu ft</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Weight</h1>
+                                    <p class="black-car-detail-subtitle">25-year performance guarantee</p>
+
+
+
+
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6">
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Certifications</h1>
+                                    <p class="black-car-detail-subtitle">IEC / UL 61730,
+                                        CEC Listed,
+                                        IEC 61215 <br>
+                                    </p>
+
+
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Power</h1>
+                                    <p class="black-car-detail-subtitle">3.8kW / 7.6kW
+                                        97.5% efficiency</p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Dimensions</h1>
+                                    <p class="black-car-detail-subtitle">26" x 16" x 6"
+                                    </p>
+
+                                    <hr class="black-car-detail-line">
+                                    <h1 class="black-car-detail-heading">Inverter Warranty</h1>
+                                    <p class="black-car-detail-subtitle">12.5 years </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 20%; background-color: #000000;">
+            <img src="assets/Supercharger-Savings-Hero-Mobile-NA.webp" style="width: 100%;" alt="">
+        </div>
+
+        <div class="footer-section  " style="text-align: center;color: #ffffff;background-color: #000000;">
+            <h1>Host a Supercharger</h1>
+            <button class="blue-car-section-white-box-btn-5-1" style="width: 90%; border-width: 3px;">Apply</button>
+            <p>Apply to install a Supercharger at your business property</p>
+
+
+        </div>
+        <div style="padding:10%; text-align: center; background-color: #000000;">
+
+
+            <div class="footer-mobile d-flex flex-column " style="margin-top: 15%;">
+                <a href="" class="charger-hero-page-footer-text">Tesla © 2023</a>
+                <a href="" class="charger-hero-page-footer-text">Privacy & Legal</a>
+                <a href="" class="charger-hero-page-footer-text">Vehicle Recalls</a>
+                <a href="" class="charger-hero-page-footer-text">Contact</a>
+                <a href="" class="charger-hero-page-footer-text">News</a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- //menu mobile section no edit  -->
+        <!--Menu button mobile -->
+
+        <div class="offcanvas offcanvasM offcanvas-end" tabindex="-1" id="mobile-menu-btn-id"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a href="" class="mobile-nav-menu-list-card" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobilemanu-vehical" aria-controls="mobilemanu-vehical">
+                    <div class="mobile-nav-menu-list-card-div d-flex">
+                        <h1>Vehicle</h1>
+                        <div class="mobile-nav-menu-list-card-div-arrow">
+                            <i class="fa-solid fa-chevron-right" style="color: #535353;"></i>
+                        </div>
+                    </div>
+
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobilemanu-Energy" aria-controls="mobilemanu-Energy">
+                    <div class="mobile-nav-menu-list-card-div d-flex">
+                        <h1>Energy</h1>
+                        <div class="mobile-nav-menu-list-card-div-arrow">
+                            <i class="fa-solid fa-chevron-right" style="color:#393c41;"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobilemanu-charging" aria-controls="mobilemanu-charging">
+                    <div class="mobile-nav-menu-list-card-div d-flex">
+                        <h1>Charging</h1>
+                        <div class="mobile-nav-menu-list-card-div-arrow">
+                            <i class="fa-solid fa-chevron-right" style="color:#393c41;"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobilemanu-discover" aria-controls="mobilemanu-discover">
+                    <div class="mobile-nav-menu-list-card-div d-flex">
+                        <h1>Discover</h1>
+                        <div class="mobile-nav-menu-list-card-div-arrow">
+                            <i class="fa-solid fa-chevron-right" style="color:#393c41;"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobilemanu-shop" aria-controls="mobilemanu-shop">
+                    <div class="mobile-nav-menu-list-card-div d-flex">
+                        <h1>shop</h1>
+                        <div class="mobile-nav-menu-list-card-div-arrow">
+                            <i class="fa-solid fa-chevron-right" style="color:#393c41;"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Support</h1>
+                    </div>
+                </a>
+
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="d-flex mobile-nav-menu-list-card-div">
+                        <div class="mobile-nav-menu-list-card-div-icon-1">
+                            <a href=""><i class="fa-solid fa-globe fa-lg" style="color: #535353;"></i></a>
+                        </div>
+                        <div>
+                            <h2 class="mobile-nav-menu-list-card-div-icon-text">United States</h2>
+                            <P>English</P>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="d-flex mobile-nav-menu-list-card-div">
+                        <div class="mobile-nav-menu-list-card-div-icon-2">
+                            <a href=""><i class="fa-regular fa-circle-user fa-lg" style="color: #535353;"></i></a>
+                        </div>
+                        <h1>Account</h1>
+
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        <!-- vehical mobile nav bar section card 2 -->
+        <div class="offcanvas offcanvasMV offcanvas-end" tabindex="-1" id="mobilemanu-vehical"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Vehicles</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href="/Mode_S/model_S.html"><img src="assets/Mega-Menu-Vehicles-Model-s.png"
+                                    class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Model S</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <img src="assets/Mega-Menu-Vehicles-Model-3.png" class="top-icon" />
+                            <h1 class="top-navbar-icon-div-heading">Model 3</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Vehicles-Model-x.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Model X</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Vehicles-Model-y.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Model Y</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <hr style="border-left: 0.01px solid #919191; margin-top:35px;">
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Inventory</h1>
+                            </div>
+                        </a>
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Used Cars</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Cybertruck</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Semi</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Roadster</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Compare</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Fleet</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Demo Drive</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Trade-in</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Energy mobile nav bar section card 2 -->
+        <div class="offcanvas offcanvasME offcanvas-end" tabindex="-1" id="mobilemanu-Energy"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Energy</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""><img src="assets/Mega-Menu-Energy-Solar-Panels.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Solar Panel</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Energy-Solar-Roof.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Solar Roof</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""><img src="assets/Mega-Menu-Energy-Powerwall-US.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Powerwall</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Energy-Megapack.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Megapack</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <hr style="border-left: 0.01px solid #919191; margin-top:35px;">
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Utilities</h1>
+                            </div>
+                        </a>
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Commerical</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Schedule a Consultation</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Charging mobile nav bar section card 3  -->
+        <div class="offcanvas offcanvasMC offcanvas-end" tabindex="-1" id="mobilemanu-charging"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Charging</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Charging-Charging.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Charging</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""><img src="assets/Mega-Menu-Charging-Home-Charging.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Home-Charging</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Charging-Supercharging.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Supercharging</h1>
+                            <div class="top-navbar-icon-div-heading-2-1">
+                                <a href="#" class="top-navbar-icon-div-heading-2">Learn</a>
+                                <a href="#" class="top-navbar-icon-div-heading-2">Order</a>
+                            </div>
+                        </div>
+                        <hr style="border-left: 0.01px solid #919191; margin-top:35px;">
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Charging Calcultor</h1>
+                            </div>
+                        </a>
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Trip Planner</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Supercharging Voting</h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Destination Charging</h1>
+                            </div>
+                        </a>
+
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Commerial Charging </h1>
+                            </div>
+                        </a>
+                        <a href="" class="mobile-nav-menu-list-card">
+                            <div class="mobile-nav-menu-list-card-div">
+                                <h1>Become a Site Host</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Discover mobile nav bar section card 4  -->
+
+        <div class="offcanvas offcanvasMD offcanvas-end" tabindex="-1" id="mobilemanu-discover"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Discover</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Video Guides</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Customer Stories</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Events</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Finds Us</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Trip Planner</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Find a Collision Center</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Find a Certifies Installer</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>About</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Careets</h1>
+                    </div>
+                </a>
+                <a href="" class="mobile-nav-menu-list-card">
+                    <div class="mobile-nav-menu-list-card-div">
+                        <h1>Inventor Relations</h1>
+                    </div>
+                </a>
+
+
+
+            </div>
+        </div>
+        <!-- Shop mobile nav bar section card 5 -->
+        <div class="offcanvas offcanvasMS offcanvas-end" tabindex="-1" id="mobilemanu-shop"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Shop</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+
+                            <a href=""> <img src="assets/Mega-Menu-Charging-Home-Charging.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Charging</h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Shop-Vehicle-Accessories.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Vehicle Accessories</h1>
+
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Shop-Apparel.webp" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Apparel</h1>
+
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 " style="text-align: center;">
+                            <a href=""> <img src="assets/Mega-Menu-Shop-Lifestyle.png" class="top-icon" /></a>
+                            <h1 class="top-navbar-icon-div-heading">Lifestyle</h1>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!--mobiel Vertion End-->
+
+    <!-- no edit code this is javascript link section -->
+    <script src="script.js"></script>
+    <script src="scroll-effect.js"></script>
+
+</body>
+
+
+</html>
