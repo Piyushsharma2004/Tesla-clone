@@ -14,12 +14,19 @@
     <link rel="stylesheet/less" type="text/css" href="bootstrap.scss" />
     <script src="https://kit.fontawesome.com/d090e259b2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
 </head>
 
 <body>
 
     <!-- desktop version -->
     <section class="d-none d-sm-none d-md-none d-lg-block d-xl-block section">
+             <iframe
+  src="https://ms-ai-assistant-widget.vercel.app/"
+  allow="microphone"
+  style="position: fixed; bottom: 24px; right: 24px; width: 420px; height: 600px; border: none; z-index: 1000;"
+></iframe>
         <header class="tesla-navbar video-container container-mobile">
             <video autoplay muted loop id="myVideo ">
                 <source src="assets/Homepage-Demo-Drive-Desktop-NA.webm" type="video/mp4">
